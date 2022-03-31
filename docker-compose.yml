@@ -9,7 +9,7 @@ services:
     ports:
       - "3307:3306"
   springboot-docker-container:
-    image: k8s-spring-docker-image1
+    image: sarantiya18/k8s-spring-docker-image1
     ports:
       - "8082:8082"
     environment:
