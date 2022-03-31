@@ -63,10 +63,18 @@ You can import the sql by following command
 `docker run -t --link mysql-docker:mysql -p 8080:8080 docker-spring-boot-user`
 
 **--link** will link the MySQL container and will be exposing the port 8080
-
+                                                                   
+*****************docker-compose with the updated images*****************
+docker pull sarantiya18/k8s-spring-docker-image1
+git clone the repo
+                                                                   
+sudo apt install docker-compose                                                                   
+                                                                   
+docker-compose -f docker-compose.yml up
+                                                                   
 Now it will open up in
 
-    http://localhost:8080/demo/user
+    http://localhost:8082/demo/swagger-ui.html
 
 POST 
 
